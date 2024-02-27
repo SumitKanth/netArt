@@ -146,11 +146,6 @@ footer .one, footer .two, footer .three{
 /* Media Query Starts */
 
 @media (max-width: 1473px){
-    .section_one{
-        background-color: black;
-        color: #fff;
-    }
-    
     .section_one .right_one .two_img{
         height: 30rem;
         width: 45rem;
