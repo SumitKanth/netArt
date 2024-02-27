@@ -144,6 +144,7 @@ footer{
 
 footer .one, footer .two, footer .three{
     margin: 0 1rem;
+    color: #fff;
 }
 
 /* Footer CSS Ends */
