@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: linear-gradient(white, rgb(221, 221, 157));
+    height: 100%;
+    margin: auto;
+}
+
+
+/* Header CSS Starts */
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.logo{
+    height: 7rem;
+    width: 26rem;
+}
+
+/* Header CSS Ends */
+
+/* Section One CSS Starts */
+
+.section_one{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.section_one .left_one .award_img{
+    height: 30rem;
+}
+
+.section_one .right_one{
+    width: 63%;
+    /* border: 2px solid #ff0000; */
+}
+
+.section_one .right_one .val{
+    font-weight: bold;
+}
+
+.section_one .right_one .text_list{
+    /* border: 2px solid green; */
+    padding: 1rem 2rem;
+}
+
+.section_one .right_one .award_taking_img{
+    /* border: 2px solid #00ffff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_one .right_one .two_img{
+    height: 30rem;
+    width: 55rem;
+    margin: 2rem 0;
+}
+
+/* Section One CSS Ends */
+
+
+/* Section Two CSS Start */
+
+.section_two{
+    padding: 2rem 0;
+}
+
+.section_two .text{
+    margin: 0 1rem;
+}
+
+.section_two .sec_two_con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section_two .sec_two_con img{
+    width: 60rem;
+    margin: 1rem 0;
+}
+
+/* Section Two CSS Ends */
+
+.hr_tag{
+    width: 95%;
+    margin: auto;
+    color: #ff0000;
+}
+
+/* Section Three CSS Starts */
+
+.section_three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section_three .head{
+    margin: 1rem 0;
+}
+
+.section_three p{
+    width: 90%;
+}
+
+.section_three p span{
+    color: #ff0000;
+}
+
+/* Section Three CSS Ends */
+
+
+/* Footer CSS Starts */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff0000;
+    height: 5rem;
+    margin: 0 1rem;
+    margin-top: 1rem;
+}
+
+footer .one, footer .two, footer .three{
+    margin: 0 1rem;
+}
+
+/* Footer CSS Ends */
+
+
+/* Media Query Starts */
+
+@media (max-width: 1473px){
+    .section_one{
+        background-color: black;
+        color: #fff;
+    }
+    
+    .section_one .right_one .two_img{
+        height: 30rem;
+        width: 45rem;
+        margin: 2rem 0;
+    }
+
+    .section_two .sec_two_con img{
+        width: 40rem;
+        margin: 1rem 0;
+    }
+    
+}
+
+
+@media (max-width: 1200px){
+    .section_one .right_one .two_img{
+        height: 30rem;
+        width: 30rem;
+        margin: 2rem 0;
+    }
+}
+
+@media (max-width: 700px){
+    footer{
+        flex-direction: column;
+        height: 8rem;
+    }
+
+    footer .one, footer .two, footer .three{
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 676px){
+    .section_one .right_one .two_img{
+        height: 30rem;
+        width: 30rem;
+        margin: 2rem 0;
+    }
+
+    .section_two .sec_two_con img{
+        width: 30rem;
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width: 512px){
+    .section_one .right_one .two_img{
+        height: 30rem;
+        width: 23rem;
+        margin: 2rem 0;
+    }
+
+    .section_two .sec_two_con img{
+        width: 25rem;
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width: 400px){
+    .section_one .right_one .two_img{
+        height: 30rem;
+        width: 19rem;
+        margin: 2rem 0;
+    }
+
+    .section_two .sec_two_con img{
+        width: 20rem;
+        margin: 1rem 0;
+    }
+}
+/* Media Query Ends */
