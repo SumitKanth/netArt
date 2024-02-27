@@ -128,6 +128,10 @@
 
 /* Footer CSS Starts */
 
+.footer{
+    padding-bottom: 1rem;
+}
+
 footer{
     display: flex;
     align-items: center;

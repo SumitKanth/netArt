@@ -56,11 +56,14 @@ const Home = () => {
                     <p>CHEMICALS <span>|</span> PROCESS POWER WATER <span>|</span> WASTE WATER OILS <span>|</span> GAS PHARMA SUGARS <span>|</span> DISTILLERIES PAPER <span>|</span> PULP MARINE <span>|</span> DEFENCE METAL <span>|</span> MINING FOOD <span>|</span> BEVERAGE PETROCHEMICAL <span>|</span> REFINERIES SOLAR BUILDING HVAC FIRE FIGHTING AGRICULTURE <span>|</span> RESIDENTIAL</p>
                 </div>
 
+            <div className="footer">
                 <footer>
                     <div className="one"><PhoneIcon /> Toll free 1800 200 1234</div>
                     <div className="two"><FacebookRoundedIcon /> www.facebook.com/cripumps</div>
                     <div className="three"><LanguageRoundedIcon /> www.crigroups.com</div>
                 </footer>
+            </div>
+                
             </div>
         </>
     )
